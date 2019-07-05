@@ -8,3 +8,7 @@ alert(name);
 const surname = "Campos";
 const city = "Sydney";
 alert(`Nom: ${name}\nPrenom: ${surname}\nVille: ${city}`);
+
+//Step 3: String concatenation
+let userName = prompt("What is your name?");
+alert(`Hello ${userName}`);
