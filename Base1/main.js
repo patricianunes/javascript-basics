@@ -30,3 +30,12 @@ const multiply = () => {
   document.getElementById("answer").innerHTML = answer;
   event.preventDefault();
 };
+
+//Step 6
+const remainder = () => {
+  const firstNumber = document.getElementById("first_number").value;
+  const secondNumber = document.getElementById("second_number").value;
+  const remainder = firstNumber % secondNumber;
+  document.getElementById("remainder").innerHTML = remainder;
+  event.preventDefault();
+};
