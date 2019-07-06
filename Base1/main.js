@@ -21,3 +21,12 @@ const formData = () => {
   alert(`Hello, ${name} ${surname}, you are from ${city} `);
   event.preventDefault();
 };
+
+//Step 5
+const multiply = () => {
+  const firstNumber = document.getElementById("first_number").value;
+  const secondNumber = document.getElementById("second_number").value;
+  const answer = firstNumber * secondNumber;
+  document.getElementById("answer").innerHTML = answer;
+  event.preventDefault();
+};
