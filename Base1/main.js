@@ -39,3 +39,13 @@ const remainder = () => {
   document.getElementById("remainder").innerHTML = remainder;
   event.preventDefault();
 };
+
+//Step 7
+const multipleOperations = () => {
+  const shoeSize = document.getElementById("shoe_size").value;
+  const year = document.getElementById("year").value;
+  const operationsShoe = (shoeSize * 2 + 5) * 50;
+  const operationsYear = operationsShoe - year + 1766;
+  document.getElementById("result").innerHTML = operationsYear;
+  event.preventDefault();
+};
