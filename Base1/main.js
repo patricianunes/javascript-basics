@@ -49,3 +49,14 @@ const multipleOperations = () => {
   document.getElementById("result").innerHTML = operationsYear;
   event.preventDefault();
 };
+
+//Step 8
+const major = () => {
+  const age = document.getElementById("age").value;
+  if (age >= 18) {
+    document.getElementById("text").innerText = "you are over 18";
+  } else {
+    document.getElementById("text").innerText = "you are under 18";
+  }
+  event.preventDefault();
+};
